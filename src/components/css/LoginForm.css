@@ -1,0 +1,89 @@
+@media screen and (max-width: 874px) {
+    .image{
+        display: none;
+    }
+    .image-container2{
+        display: block;
+    }
+}
+
+.image2{
+    display: none;
+}
+
+.form-container {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login {
+    display: block;
+    /* background-color: wheat; */
+}
+
+
+h1 {
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+
+.form-label {
+    display: block;
+    color: #F87171;
+    font-weight: 1000;
+    margin: 5px;
+    -webkit-text-stroke: 1px #F87171;
+}
+
+.form-input {
+    width: 95%;
+    border-bottom-width: 0.2rem;
+    border-bottom-color: #EF4444;
+    border-radius: 0.85rem;
+    outline-color: #EF4444;
+    padding: 10px 14px;
+    color: #F87171;
+    font-weight: bold;
+    /* -webkit-text-stroke: 0.25px black; */
+
+}
+
+.form-btn-container {
+    display: flex;
+}
+
+.form-button {
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid #EF4444;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
+
+.form-button:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.form-button:active {
+    transform: scale(0.97);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover{
+    -webkit-text-stroke: 1px white;
+}

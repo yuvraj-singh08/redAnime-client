@@ -1,0 +1,38 @@
+.input-container{
+    display: flex;
+    /* justify-content: center  ; */
+    align-items: center;
+    width: 100%;
+}
+
+.comment-input{
+    width: 100%;
+    background: transparent;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+    color: white;
+}
+
+.comment-input:focus{
+    outline: none;
+    border-bottom: 2px solid #ebe9e9;
+}
+
+.comment{
+    /* display: block; */
+}
+
+.comment-container{
+    /* display: inline; */
+}
+
+.button-container{
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}
+
+.comment{
+    padding-bottom: 20px;
+}

@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout';
 import reportWebVitals from './reportWebVitals';
 import AnimePage from './components/AnimePage/AnimePage';

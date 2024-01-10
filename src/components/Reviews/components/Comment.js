@@ -27,12 +27,12 @@ function Comment(props) {
                 });
         }
         getComments();
-    }, []);
+    }, [props.userId]);
 
     return <>
         {user !== undefined ? <div className="comment">
             <div class="circle-container">
-                <img src={`/images/${user[0].imgSource}`} alt="Image" class="circle-image" />
+                <img src={`/images/${user[0].imgSource}`} alt="Salman" class="circle-image" />
             </div>
             <div>
                 <div className="comment-header">

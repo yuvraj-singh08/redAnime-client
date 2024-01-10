@@ -4,6 +4,7 @@ import './css/Navbar.css';
 
 
 const Navbar = () => {
+    const [loginStatus, setLoginStatus] = useState(false);
     const navigate = useNavigate();
 
 

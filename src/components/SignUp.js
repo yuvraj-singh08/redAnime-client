@@ -46,7 +46,7 @@ function SignUp() {
     return (
         <div>
             <div className="signup-container">
-                <img src="./images/soch.png" className="image child"></img>
+                <img alt="" src="./images/soch.png" className="image child"></img>
 
 
 

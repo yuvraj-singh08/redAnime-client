@@ -27,7 +27,7 @@ function Reviews() {
             .catch((error) => {
                 console.error(error);
             });
-    }, []);
+    }, [animeId]);
 
     return (
         <>

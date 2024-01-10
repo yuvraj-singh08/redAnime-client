@@ -4,7 +4,6 @@ import './css/Navbar.css';
 
 
 const Navbar = () => {
-    const [loginStatus, setLoginStatus] = useState(false);
     const navigate = useNavigate();
 
 
@@ -52,7 +51,7 @@ const Navbar = () => {
                         <a href="/home">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#">Explore</a>
+                        <a href="/explore">Explore</a>
                     </li>
                     <li className="nav-item">
                         <a href="/user/watchlist">Watchlist</a>

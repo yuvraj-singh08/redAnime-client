@@ -6,7 +6,7 @@ function SignUp() {
     const session = localStorage.getItem("sessionToken");
     const navigate = useNavigate();
     useEffect(() => {
-        if (session == "myToken") {
+        if (session === "myToken") {
             navigate('/home');
             console.log("MKC navigate nahi hua");
         }

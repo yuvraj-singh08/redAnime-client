@@ -6,7 +6,7 @@ return (
     <div className="flip-card mt-3 mb-4">
         <div className="flip-card-inner">
           <div  className="flip-card-front ">
-            <img  src={props.src} />
+            <img  src={props.src} alt={`${props.heading} image`} />
           </div>
           <div className="flip-card-back">
           <h1 className='text-3xl'>{props.heading}</h1>

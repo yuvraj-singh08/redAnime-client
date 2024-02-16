@@ -14,7 +14,7 @@ const App = lazy(() => import('./App'));
 const router = createBrowserRouter([
   {
     path: '/home',
-    element: <Layout><Suspense fallback = {<div>Loding....</div>}><App /></Suspense></Layout>
+    element: <Suspense fallback = {<div>Loding....</div>}><App /></Suspense>
   },
   {
     path: '/anime/:animeId',

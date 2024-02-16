@@ -68,7 +68,7 @@ function AddComment() {
     return <>
         <div className="comment">
             <div class="circle-container">
-                <img src={`/images/${user.imgSource}`} alt="" class="circle-image" />
+                <img src={`/images/${user.imgSource}`} alt="" className="circle-image" />
             </div>
             <div className='input-container'>
                 <input type='text' placeholder='Add a comment...' value={comment} onChange={handleChange} className='comment-input'></input>

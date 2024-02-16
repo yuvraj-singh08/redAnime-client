@@ -22,9 +22,9 @@ function App() {
 
     const card_container = {
         display:'flex',
-        'justifyContent': 'center',
-        'flexWrap': 'wrap',
-        'margin': '4px 16px',
+        justifyContent: 'center',
+        flexWrap: 'wrap',
+        margin: '4px 16px',
         padding: '5px 30px',
     }
 

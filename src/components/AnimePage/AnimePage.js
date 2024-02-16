@@ -48,7 +48,6 @@ function AnimePage(props) {
           />
         ))}
       </div>
-      <Reviews />
     </>
   );
 }
